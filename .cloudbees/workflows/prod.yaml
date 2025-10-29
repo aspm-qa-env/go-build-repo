@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: GoRepoWithFewerFindings
+          labels: GoRepo
           artifact-id: b3b09eb6-bf91-4384-b853-f731f06d5a5c
           target-environment: ASPM_QA_ENV
